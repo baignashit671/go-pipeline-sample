@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_baignashit671_go_pipeline_sample_1714034496580-pr-trigger-input-set
+  identifier: Build_baignashit671_go_pipeline_sample_1714034496580prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_baignashit671_go_pipeline_sample_1714034496580
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
